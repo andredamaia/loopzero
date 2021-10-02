@@ -81,8 +81,8 @@ boilerplate
 
 ## Todo
 
-- [x] Fix fonts
-- [x] Script page splitting
+- [] Fix fonts
+- [] Script page splitting
 
 ## Credits
 
