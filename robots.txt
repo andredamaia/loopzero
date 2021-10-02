@@ -1,0 +1,8 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+Disallow: /doc/version/v1.5
+
+Sitemap: https://siteurl.com.br/sitemap.xml

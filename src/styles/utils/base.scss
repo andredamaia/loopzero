@@ -1,0 +1,52 @@
+@import 'https://unpkg.com/swiper/swiper-bundle.css';
+@import 'https://fonts.googleapis.com/css2?family=Poppins&display=swap';
+
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    outline: 0;
+}
+
+:root {
+    --color-light: #ffffff;
+    --color-dark: #111111;
+
+    --title-32: 3.2rem;
+
+    --text-16: 1.6rem;
+
+    --font-poppins: 'Poppins', sans-serif;
+}
+
+
+html { 
+    font-size: 62.5%; 
+}
+
+body { 
+    font-family: var(--font-poppins); 
+    font-size: var(--text-16); 
+    background: var(--color-dark);
+}
+
+input, textarea { 
+    outline: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+.webapp { 
+    overflow: hidden; 
+    min-height: 100vh; 
+}
+
+.container {
+    max-width: 1480px;
+    width: 90%;
+}

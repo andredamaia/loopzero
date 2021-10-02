@@ -1,0 +1,36 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --progress --config webpack.config.dev.js",
+    "build": "cross-env NODE_ENV=production webpack --progress --config webpack.config.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ashthornton/asscroll": "^2.0.2",
+    "gsap": "^3.7.1",
+    "preload-it": "^1.4.0",
+    "sass": "^1.41.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.3.0",
+    "file-loader": "^6.2.0",
+    "glob": "^7.1.7",
+    "glslify-loader": "^2.0.0",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "mini-css-extract-plugin": "^2.3.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "postcss-loader": "^6.1.1",
+    "raw-loader": "^4.0.2",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
