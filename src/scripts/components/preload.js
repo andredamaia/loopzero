@@ -21,7 +21,8 @@ export default class Preaload {
 
     load() {
         this.preload.fetch([
-            '../boilerplate/dist/assets/images/share.jpg',
+            '../boilerplate/public/images/share.jpg',
+            '../boilerplate/public/images/favicon.png',
         ]).then(items => {
             const enterAnimantion = gsap.timeline({ delay: 1 })
         
