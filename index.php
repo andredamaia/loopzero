@@ -33,7 +33,6 @@
             <?php include('components/header.php'); ?>
 
             <div asscroll-container>
-        
                 <div>
                     <?php
                         if($page != NULL){
@@ -43,7 +42,6 @@
                 
                     <?php include('components/footer.php'); ?>
                 </div>
-
             </div>
         </div>
         

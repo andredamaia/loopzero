@@ -21,12 +21,17 @@ switch($page){
 
 	case "home":
 		$title = "Boilerplate";
-		$description = "Simples descrição";
+		$description = "Boilerplate preparado para ser utilizado como base de desenvolvimento: <br /> SASS, Webpack, Three.js, ES6 modules, PHP";
+		break;
+	
+	case "contato":
+		$title = "Contato";
+		$description = "Envios de formulários feat. formsubit.io";
 		break;
 
 	default:
 		$title = "Boilerplate";
-		$description = "Simples descrição";
+		$description = "Boilerplate preparado para ser utilizado como base de desenvolvimento: <br /> SASS, Webpack, Three.js, ES6 modules, PHP";
 		break;
 }
 

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-12 col-lg-4 col-lg-offset-2 text-center main">
-                <h2>Pronto para começar.</h2>
+                <h2 style="opacity: 0;">Pronto para começar.</h2>
 
                 <p>Boilerplate preparado para ser utilizado como base de desenvolvimento: <br /> SASS, Webpack, Three.js, ES6 modules, PHP</p>
 

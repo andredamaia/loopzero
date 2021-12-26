@@ -13,6 +13,7 @@
   "dependencies": {
     "@ashthornton/asscroll": "^2.0.2",
     "gsap": "^3.8.0",
+    "jquery": "^3.6.0",
     "preload-it": "^1.4.0",
     "sass": "^1.43.4"
   }

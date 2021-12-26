@@ -37,7 +37,7 @@ export default class Menu {
                     return
                 } else {
                     this.tl.set('.menu', { height: 0 })
-                    this.tl.set('.menu-header *', { y: -30, autoAlpha: 0 })
+                    // this.tl.set('.menu-header *', { y: -30, autoAlpha: 0 })
                     this.tl.set('.menu-links li', { skewY: -3, y: 15 })
 
                     this.tl.fromTo('.menu', {
@@ -50,13 +50,13 @@ export default class Menu {
                         y: 0
                     })
 
-                    this.tl.to('.menu-header *', {
-                        duration: .3,
-                        autoAlpha: 1,
-                        y: 0,
-                        delay: -.2,
-                        ease: 'power4.Out'
-                    })
+                    // this.tl.to('.menu-header *', {
+                    //     duration: .3,
+                    //     autoAlpha: 1,
+                    //     y: 0,
+                    //     delay: -.2,
+                    //     ease: 'power4.Out'
+                    // })
 
                     this.tl.to('.menu-links li', {
                         duration: .4,

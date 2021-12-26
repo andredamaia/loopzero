@@ -4,6 +4,7 @@ header {
     width: 100%;
     transition: all .3s ease-in-out;
     z-index: 80;
+    background: #00000080;
 }
 
 .menu-list {
@@ -14,6 +15,7 @@ header {
     li {
         margin: 0 1rem;
         list-style: none;
+        display: inline-block;
 
         a {
             color: #fff;

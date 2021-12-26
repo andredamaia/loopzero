@@ -46,7 +46,22 @@ figure {
     min-height: 100vh; 
 }
 
+a {
+    text-decoration: underline;
+    color: var(--color-light);
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        color: var(--color-light);
+        opacity: .6;
+    }
+}
+
 .container {
     max-width: 1480px;
     width: 90%;
+
+    @media(max-width: 768px) {
+        width: 100%;
+    }
 }
