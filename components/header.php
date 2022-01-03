@@ -24,7 +24,8 @@
 
             <div class="col-12 col-lg-6 d-none d-xl-block">
                 <ul class="menu-list">
-                    <li><a href="<?php echo $pageurl; ?>/">Menu</a></li>
+                    <li><a href="<?php echo $pageurl; ?>/">Início</a></li>
+                    <li><a href="<?php echo $pageurl; ?>/contato">Contato</a></li>
                 </ul>
             </div>
 

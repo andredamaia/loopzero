@@ -1,7 +1,10 @@
-import '../styles/styles.scss'
+import '../styles/index.scss'
 
+import Load from './utils/load'
 import Menu from './components/menu'
-import Preload from './components/preload'
 
-new Preload({ domElement: document.querySelector('.preload') })
+import './pages/home'
+import './pages/contato'
+
+new Load({ domElement: document.querySelector('.preload') })
 new Menu({ domElement: document.querySelector('.menu') })

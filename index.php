@@ -26,14 +26,13 @@
         <meta name="twitter:image" content="<?php echo $pageurl; ?>/public/images/share.jpg" />
     </head>
 
-    <body id="<?php echo $page; ?>">
+    <body id="<?php echo $page; ?>" class="<?php echo $subpage; ?>">
         <div class="webapp">
             <?php include('components/preload.php'); ?>
             
             <?php include('components/header.php'); ?>
 
             <div asscroll-container>
-        
                 <div>
                     <?php
                         if($page != NULL){
@@ -43,7 +42,6 @@
                 
                     <?php include('components/footer.php'); ?>
                 </div>
-
             </div>
         </div>
         
