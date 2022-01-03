@@ -26,7 +26,7 @@
         <meta name="twitter:image" content="<?php echo $pageurl; ?>/public/images/share.jpg" />
     </head>
 
-    <body id="<?php echo $page; ?>">
+    <body id="<?php echo $page; ?>" class="<?php echo $subpage; ?>">
         <div class="webapp">
             <?php include('components/preload.php'); ?>
             

@@ -20,32 +20,10 @@
 
                 <div class="module-form">
                     <form action="https://formsubmit.co/email@remetente.com" method="POST" enctype="multipart/form-data" class="form-default">
-
-                        <?php if($subpage){ 
-                            echo "<script>
-                                const Toast = Swal.mixin({
-                                    toast: true,
-                                    position: 'top-end',
-                                    showConfirmButton: false,
-                                    timer: 3000,
-                                    timerProgressBar: true,
-                                    didOpen: (toast) => {
-                                    toast.addEventListener('mouseenter', Swal.stopTimer)
-                                    toast.addEventListener('mouseleave', Swal.resumeTimer)
-                                    }
-                                })
-                                
-                                Toast.fire({
-                                    icon: 'success',
-                                    title: 'Mensagem enviada'
-                                })
-                            </script>";
-                        }; ?>
-
                         <input type="hidden" name="_captcha" value="false">
                         <input type="text" name="_honey" style="display:none">
                         <input type="hidden" name="_next" value="<?php echo $pageurl; ?>/contato/sent">
-                        <input type="hidden" name="_subject" value="New Quota">
+                        <input type="hidden" name="_subject" value="Novo orçamento">
 
                         <div class="row">
                             <div class="col-sm-8">
