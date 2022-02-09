@@ -1,4 +1,4 @@
-<div class="menu">
+<!-- <div class="menu">
     <div class="menu-header">
         <div class="menu-logo">
             <svg viewBox="0 0 371 60" fill="#ffffff">
@@ -44,4 +44,4 @@
     <div class="menu-footer">
         <p>copyright © Boilerplate v2022.1.2412</p>
     </div>
-</div>
+</div> -->

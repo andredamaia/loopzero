@@ -1,15 +1,3 @@
 @import './components/preload.scss';
-@import './components/header.scss';
-@import './components/footer.scss';
-@import './components/menu.scss';
 
-@import './utils/reset.scss';
-@import './utils/base.scss';
-@import './utils/text.scss';
-@import './utils/button.scss';
-@import './utils/animate.scss';
-@import './utils/form.scss';
-
-@import './pages/home.scss';
-@import './pages/contato.scss';
-@import './pages/404.scss';
+@import './pages/base.scss';
