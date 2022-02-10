@@ -1,108 +1,68 @@
+<div class="boilerplate">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-lg-4 col-lg-offset-2 text-center main">
+                <h2 style="opacity: 0;">Formulário integrado com <a href="https://formsubmit.co/" target="_blank">formsubit.co</a></h2>
 
+                <p>Requer confirmação: o primeiro envio deve ser confirmado no e-mail do remetente</p>
 
-<div class="banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-5 align-self-center desktop-version">
-                    <h2>Entre em contato com o nosso time de especilistas<span>.</span></h2>
-
-                    <p>A Mazzolli está sempre disponível para esclarecer dúvidas, receber sugestões ou críticas.</p>
+                <div class="module-tip">
+                    <span class="tip-title">Altere o email no <span>`action`</span> do form para testar</span>
                 </div>
 
-                <div class="col-12 col-md-6 offset-md-1">
-                    <img src="<?php echo $pageurl; ?>/public/images/banner-contato.jpg" alt="" />
+                <div class="module-tip">
+                    <span class="tip-title">O campo <span>`_next`</span> é o endereço de retorno </span>
                 </div>
 
-                <div class="col-12 col-md-5 align-self-center mobile-version">
-                    <h2>Entre em contato com o nosso time de especilistas<span>.</span></h2>
-
-                    <p>A Mazzolli está sempre disponível para esclarecer dúvidas, receber sugestões ou críticas.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="bg-interna">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h3>Como você prefere falar com a gente?</h3>
+                <div class="module-tip">
+                    <span class="tip-title"><span>`_subject`</span> permite editar o assunto do e-mail </span>
                 </div>
 
-                <div class="col-12 col-md-4">
-                    <span class="contact-infos">
-                        <img src="<?php echo $pageurl; ?>/public/images/icon-email.png" alt="" />
+                <div class="module-form">
+                    <form action="https://formsubmit.co/email@remetente.com" method="POST" enctype="multipart/form-data" class="form-default">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="text" name="_honey" style="display:none">
+                        <input type="hidden" name="_next" value="<?php echo $pageurl; ?>/contato/sent">
+                        <input type="hidden" name="_subject" value="Novo orçamento">
 
-                        E-mail
-                    </span>
-
-                    <p>
-                        Tem alguma dúvida? Podemos te ajudar pelo nosso canal de email.
-                        <a href="mailto:contato@mazzolli.com.br">contato@mazzolli.com.br</a>
-                    </p>
-                </div>
-
-                <div class="col-12 col-md-4">
-                    <span class="contact-infos">
-                        <img src="<?php echo $pageurl; ?>/public/images/icon-phone.png" alt="" />
-
-                        Telefone
-                    </span>
-
-                    <p>
-                        Você pode ligar para a Mazzolli em horário comercial através do telefone.
-                        <a href="tel:+554734619300">+55 (47) 3461-9300</a>
-                    </p>
-                </div>
-
-                <div class="col-12 col-md-4">
-                    <span class="contact-infos">
-                        <img src="<?php echo $pageurl; ?>/public/images/icon-message.png" alt="" />
-
-                        Pessoalmente
-                    </span>
-
-                    <p>
-                        Venha nos fazer uma visita e conhecer o nosso escritório.
-                        <a href="https://goo.gl/maps/PrvVf5NJ74iF1QGu9" target="_blank">Rua Santos, 47 - Bucarein - Joinville / SC</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="bg-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-8 offset-md-2 text-center">
-                    <h3>O que nós podemos fazer por você?</h3>
-
-                    <p>Se preferir, preencha o formulário abaixo para enviar uma mensagem para o nosso time de especialistas. Responderemos você dentro de 24 horas.</p>
-                </div>
-
-                <div class="col-12 col-md-10 offset-md-1">
-                    <form action="" method="post" class="form-default">
                         <div class="row">
-                            <div class="col-12 col-md-6">
-                                <input type="text" placeholder="Nome Completo" />
+                            <div class="col-sm-8">
+                                <label for="name">Nome</label>
+                                <input type="text" name="name" placeholder="Seu nome completo" required />
                             </div>
-        
-                            <div class="col-12 col-md-6">
-                                <input type="text" placeholder="Assunto" />
+
+                            <div class="col-sm-8">
+                                <label for="e-mail">E-mail</label>
+                                <input type="text" name="e-mail" placeholder="E-mail principal" required />
                             </div>
-        
-                            <div class="col-12 col-md-6">
-                                <input type="text" placeholder="E-mail para contato" />
+
+                            <div class="col-sm-8">
+                                <label for="company">Assunto</label>
+                                <input type="text" name="company" placeholder="Sobre o que deseja falar?" required />
                             </div>
-        
-                            <div class="col-12 col-md-6">
-                                <input type="text" placeholder="Telefone" />
+
+                            <div class="col-sm-8">
+                                <label class="text-textarea" for="message">Resumo</label>
+                                <textarea name="message" placeholder="Fique a vontade..." required></textarea>
                             </div>
-        
-                            <div class="col-12 text-center">
-                                <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
-        
-                                <button class="button-default">Enviar mensagem</button>
+
+                            <div class="col-sm-8 col-lg-3 text-center">
+                                <label for="arquivo" style="width: 100%;" class="file">
+                                    <input 
+                                        type="file" 
+                                        accept="image/png, image/jpeg, application/pdf, application/vnd.ms-excel" 
+                                        name="arquivo" 
+                                        id="arquivo" 
+                                        style="display: none;"
+                                    />
+                                        
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-paperclip"><path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"></path></svg>   
+                                    <span>Arquivo</span>
+                                </label>
+                            </div>
+
+                            <div class="col-sm-8 col-lg-5">
+                                <button type="submit" class="button-secundary button-quote">Enviar formulário</button>
                             </div>
                         </div>
                     </form>
@@ -110,3 +70,4 @@
             </div>
         </div>
     </div>
+</div>

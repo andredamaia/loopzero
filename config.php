@@ -1,7 +1,7 @@
 <?php
 
 // $pageurl = "https://".$_SERVER["SERVER_NAME"]; // Production
-$pageurl = "../mazzolli"; // Development
+$pageurl = "../boilerplate"; // Development
 
 $url = explode('/', $_GET['cod']);
 $page = $url["0"];
@@ -20,8 +20,8 @@ switch($page){
 		break;
 
 	case "home":
-		$title = "mazzolli";
-		$description = "mazzolli preparado para ser utilizado como base de desenvolvimento: <br /> SASS, Webpack, Three.js, ES6 modules, PHP";
+		$title = "Boilerplate";
+		$description = "Boilerplate preparado para ser utilizado como base de desenvolvimento: <br /> SASS, Webpack, Three.js, ES6 modules, PHP";
 		break;
 	
 	case "contato":
@@ -30,8 +30,8 @@ switch($page){
 		break;
 
 	default:
-		$title = "mazzolli";
-		$description = "mazzolli preparado para ser utilizado como base de desenvolvimento: <br /> SASS, Webpack, Three.js, ES6 modules, PHP";
+		$title = "Boilerplate";
+		$description = "Boilerplate preparado para ser utilizado como base de desenvolvimento: <br /> SASS, Webpack, Three.js, ES6 modules, PHP";
 		break;
 }
 
