@@ -56,16 +56,3 @@ a {
         opacity: .6;
     }
 }
-
-.container {
-    max-width: 1480px;
-    width: 90%;
-
-    @media(max-width: 768px) {
-        width: 100%;
-    }
-}
-
-.swal2-popup.swal2-toast .swal2-title {
-    font-size: 1.8rem !important;
-}

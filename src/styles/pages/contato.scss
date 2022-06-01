@@ -1,8 +1,12 @@
-#contato .boilerplate {
+#contato .area-boilerplate {
     padding: 22rem 0;
 
-    .row {
-        height: auto;
+    .boilerplate-container {
+        display: flex;
+        justify-content: space-between;
+        width: 67rem;
+        max-width: 90%;
+        margin: auto;
     }
 }
 
