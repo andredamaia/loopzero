@@ -1,7 +1,7 @@
 <?php
 
 // $pageurl = "https://".$_SERVER["SERVER_NAME"]; // Production
-$pageurl = "../web"; // Development
+$pageurl = "../boilerplate"; // Development
 
 $url = explode('/', $_GET['cod']);
 $page = $url["0"];
@@ -20,18 +20,18 @@ switch($page){
 		break;
 
 	case "home":
-		$title = "Heroyz";
-		$description = "";
+		$title = "Boilerplate";
+		$description = "Boilerplate preparado para ser utilizado como base de desenvolvimento: <br /> SASS, Webpack, Three.js, ES6 modules, PHP";
 		break;
 	
 	case "contato":
 		$title = "Contato";
-		$description = "";
+		$description = "Envios de formulários feat. formsubit.io";
 		break;
 
 	default:
-		$title = "Heroyz";
-		$description = "";
+		$title = "Boilerplate";
+		$description = "Boilerplate preparado para ser utilizado como base de desenvolvimento: <br /> SASS, Webpack, Three.js, ES6 modules, PHP";
 		break;
 }
 

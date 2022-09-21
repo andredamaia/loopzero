@@ -10,7 +10,6 @@ if(pageurl == 'home'){
     gsap.ticker.add(() => { 
         gsap.to('h2', {
           y: -scroll.screenPosition/2,
-          x: -scroll.screenPosition,
           autoAlpha: scroll.screenPosition/500,
           ease: 'power2.out',
           duration: 1.6
