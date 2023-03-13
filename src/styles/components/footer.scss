@@ -1,10 +1,159 @@
 footer {
-    padding: 2rem 0;
-    background: #111111;
+    padding: 10rem 0;
+    background: #1E1E1E;
 
-    p {
-        color: var(--color-light);
-        margin-bottom: 0;
-        font-size: 1.4rem;
+    .footer-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 4rem;
+
+        .back-to-top {
+            cursor: pointer;
+            display: inline-block;
+            height: 4.5rem;
+            height: 4.5rem;
+            border-radius: 7rem;
+            transition: all .3s ease-in-out;
+
+            &:hover {
+                background: var(--color-safron);
+
+            }
+        }
+    }
+
+    .footer-body {
+        display: grid;
+        grid-template-columns: .4fr .6fr;
+        gap: 4rem;
+
+        .left-side {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 4rem;
+
+            p {
+                font-size: 1.8rem;
+                line-height: 3rem;
+                color: #ffffff70;
+                padding-right: 5rem;
+            }
+    
+            .footer-redes-sociais {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 1rem;
+                transition: all .3s ease-in-out;
+    
+                a {
+                    text-decoration: none;
+                    transition: all .3s ease-in-out;
+                    display: inline-block;
+                    
+                    &:hover {
+                        opacity: 1;
+                        transition: all .3s ease-in-out;
+    
+                        svg {
+    
+                            path {
+                                fill: var(--color-safron);
+                            }
+    
+                            .svg-interna {
+                                fill: #1E1E1E;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .right-side {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 3rem;
+
+            div {
+
+                span {
+                    font-size: 1.4rem;
+                    line-height: 1.7rem;
+                    color: var(--color-white);
+                    font-weight: 600;
+                    margin-bottom: 1.5rem;
+                    display: block;
+                }
+                
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+
+                    li {
+                        a {
+                            display: inline-block;
+                            font-size: 1.4rem;
+                            line-height: 3.2rem;
+                            color: #ffffff70;
+                            text-decoration: none;
+                            font-weight: 500;
+                            transition: all .3s ease-in-out;
+
+                            &:hover {
+                                text-decoration: none;
+                                color: var(--color-elm);
+                            }
+                        }
+                    }
+                }
+
+                p {
+                    font-size: 1.3rem;
+                    line-height: 3rem;
+                    color: #ffffff70;
+                    text-decoration: none;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+
+.copyright {
+    background: #2E2E2E;
+    padding: 3rem;
+
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        p {
+            font-size: 1.6rem;
+            line-height: 2.7rem;
+            color: var(--color-white);
+            font-weight: 500;
+
+            a {
+                font-weight: 600;
+                text-decoration: none;
+                transition: all .3s ease-in-out;
+
+                &:hover {
+                    text-decoration: none;
+                    opacity: 1;
+                    color: var(--color-elm);
+                }
+            }
+        }
     }
 }

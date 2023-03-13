@@ -1,7 +1,7 @@
 <?php
 
-// $pageurl = "https://".$_SERVER["SERVER_NAME"]; // Production
-$pageurl = "../boilerplate"; // Development
+// $pageurl = "https://".$_SERVER["SERVER_NAME"]."loopzero"; // Production
+$pageurl = "../loopzero"; // Development
 
 $url = explode('/', $_GET['cod']);
 $page = $url["0"];
@@ -20,18 +20,13 @@ switch($page){
 		break;
 
 	case "home":
-		$title = "Boilerplate";
-		$description = "Boilerplate preparado para ser utilizado como base de desenvolvimento: <br /> SASS, Webpack, Three.js, ES6 modules, PHP";
-		break;
-	
-	case "contato":
-		$title = "Contato";
-		$description = "Envios de formulários feat. formsubit.io";
+		$title = "Loopzero";
+		$description = "Soluções completas para o segmento de fundição de alumínio";
 		break;
 
 	default:
-		$title = "Boilerplate";
-		$description = "Boilerplate preparado para ser utilizado como base de desenvolvimento: <br /> SASS, Webpack, Three.js, ES6 modules, PHP";
+		$title = "Loopzero";
+		$description = "Soluções completas para o segmento de fundição de alumínio";
 		break;
 }
 
