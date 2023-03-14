@@ -20,8 +20,8 @@ export default class Load {
 
     load() {
         this.preload.fetch([
-            '../boilerplate/public/images/favicon.png',
-            '../boilerplate/public/images/share.jpg'
+            '../public/images/favicon.png',
+            '../public/images/share.jpg'
         ]).then(() => {
             // Animation executed when loading finish
             const enterAnimantion = gsap.timeline({ delay: 1 })
