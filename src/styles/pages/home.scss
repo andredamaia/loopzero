@@ -355,6 +355,49 @@
     gap: 2rem;
 }
 
+.swiper-pagination-bullet {
+	padding: 10px;
+    border-radius: 0;
+    width: 4.5rem;
+    height: 4.5rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 2rem;
+    opacity: .8;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 1px solid var(--color-elm);
+    color: var(--color-elm);
+}
+.swiper-pagination-bullet-active {
+	color:var(--color-white);
+	border: 1px solid var(--color-white);
+    opacity: 1;
+}
+
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 3.5rem;
+    top: auto;
+    left: 3rem;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .3rem;
+}
+
+.swiper-scrollbar-drag {
+    background: #98D8E7;
+}
+
+.swiper-horizontal > .swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
+    background: transparent;
+}
+
 @media (min-width: 1401px) and (max-width: 1500px) {
     header .header-container {
         gap: 3rem;
@@ -742,5 +785,16 @@
     .treinamento-description h4 {
         font-size: 2rem;
         line-height: 2.5rem;
+    }
+
+    .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: 2.5rem !important;
+        left: 2rem !important;
+    }
+
+    .swiper-pagination-bullet {
+        width: 3.5rem !important;
+        height: 3.5rem !important;
+        font-size: 1.5rem !important;
     }
 }

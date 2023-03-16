@@ -30,12 +30,18 @@ if(pageurl == 'home'){
       }
     })
 
+    var menu = ['1', '2', '3']
+
     const swiperBanner = new Swiper('.swiper-banner', {
       direction: 'horizontal',
       loop: true,
     
       pagination: {
         el: '.swiper-pagination',
+        clickable: true,
+          renderBullet: function (index, className) {
+            return '<span class="' + className + '">' + (menu[index]) + '</span>';
+          },
       },
 
       scrollbar: {
