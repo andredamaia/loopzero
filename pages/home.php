@@ -244,8 +244,58 @@
         </div>
     </div>
 
-    <div class="img-projetos">
+    <!-- <div class="img-projetos">
         <img src="<?php echo $pageurl; ?>/public/images/projetos.jpg" alt="" />
+    </div> -->
+
+    <div class="galeria-projetos">
+        <div>
+            <img src="<?php echo $pageurl; ?>/public/images/galeria-1.jpg" alt="" />
+        </div>
+
+        <div>
+            <img src="<?php echo $pageurl; ?>/public/images/galeria-2.jpg" alt="" />
+        </div>
+
+        <div>
+            <img src="<?php echo $pageurl; ?>/public/images/galeria-3.jpg" alt="" />
+        </div>
+        
+        <div>
+            <img src="<?php echo $pageurl; ?>/public/images/galeria-4.jpg" alt="" />
+        </div>
+
+        <div>
+            <img src="<?php echo $pageurl; ?>/public/images/galeria-5.jpg" alt="" />
+        </div>
+        
+        <div>
+            <img src="<?php echo $pageurl; ?>/public/images/galeria-6.jpg" alt="" />
+        </div>
+
+        <div class="png-img">
+            <img src="<?php echo $pageurl; ?>/public/images/galeria-7.png" alt="" />
+        </div>
+        
+        <div class="png-img">
+            <img src="<?php echo $pageurl; ?>/public/images/galeria-8.png" alt="" />
+        </div>
+
+        <div class="png-img">
+            <img src="<?php echo $pageurl; ?>/public/images/galeria-9.png" alt="" />
+        </div>
+        
+        <div class="png-img">
+            <img src="<?php echo $pageurl; ?>/public/images/galeria-10.png" alt="" />
+        </div>
+
+        <div>
+            <img src="<?php echo $pageurl; ?>/public/images/galeria-11.jpg" alt="" />
+        </div>
+        
+        <div>
+            <img src="<?php echo $pageurl; ?>/public/images/galeria-12.jpg" alt="" />
+        </div>
     </div>
 </div>
 
