@@ -14,6 +14,7 @@
     "@ashthornton/asscroll": "^2.0.2",
     "deasync": "^0.1.28",
     "gsap": "^3.8.0",
+    "inputmask": "^5.0.8",
     "jquery": "^3.6.0",
     "preload-it": "^1.4.0",
     "sass": "^1.43.4",

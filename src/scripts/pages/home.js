@@ -1,6 +1,7 @@
 import gsap from 'gsap'
 import Swiper, { Pagination, Scrollbar, Navigation} from 'swiper';
-import $ from 'jquery'
+import $ from 'jquery';
+import Inputmask from 'inputmask'
 
 import Scroll from '../utils/scroll'
 
@@ -74,6 +75,31 @@ if(pageurl == 'home'){
       },
     });
 
+    const swiperArtigos = new Swiper('.swiper-artigos', {
+      direction: 'horizontal',
+      slidesPerView: 3,
+      spaceBetween: 60,
+      breakpoints: {
+        320: {
+          slidesPerView: 'auto',
+          spaceBetween: 25,
+        },
+        822: {
+          slidesPerView: 'auto',
+          spaceBetween: 40,
+        },
+        992: {
+          slidesPerView: 3,
+          spaceBetween: 60,
+        },
+      },
+    
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
     $('.toggle-header').on('click', function(){
       $(this).parent().toggleClass('active');
 
@@ -94,4 +120,6 @@ if(pageurl == 'home'){
           scrollTop : position
       }, 600);
   })
+
+  Inputmask({"mask": "(99) 99999-9999"}).mask('#phone')
 }

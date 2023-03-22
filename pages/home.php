@@ -24,15 +24,15 @@
 
                 <div class="swiper-banner-description">
                     <div class="left-side">
-                        <h1>Soluções completas para o segmento de fundição de alumínio</h1>
+                        <h1>Somos especialistas em validação de projetos e serviços de Tryout</h1>
 
-                        <p>A Loopzero apresenta um modelo de negócios único no Brasil, fornecendo os serviços de projeto e simulação em fundição de alumínio</p>
+                        <p>A Loopzero possui máquina injetora de alumínio exclusiva para validação e simulação de projetos de moldes, sejam eles internos ou de terceiros</p>
 
                         <a href="#" class="button-elm">Saiba mais</a>
                     </div>
 
                     <div class="right-side">
-                        <img src="<?php echo $pageurl; ?>/public/images/swiper-peca-1.png" alt="" />
+                        <img src="<?php echo $pageurl; ?>/public/images/banner-2.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -42,15 +42,15 @@
 
                 <div class="swiper-banner-description">
                     <div class="left-side">
-                        <h1>Soluções completas para o segmento de fundição de alumínio</h1>
+                        <h1>Possuímos licença oficial da melhor ferramenta de simulação de injeção</h1>
 
-                        <p>A Loopzero apresenta um modelo de negócios único no Brasil, fornecendo os serviços de projeto e simulação em fundição de alumínio</p>
+                        <p>A Loopzero oferece simulações de injeção ao mercado através do uso do Magmasoft, ferramenta da qual temos total conhecimento técnico</p>
 
                         <a href="#" class="button-elm">Saiba mais</a>
                     </div>
 
                     <div class="right-side">
-                        <img src="<?php echo $pageurl; ?>/public/images/swiper-peca-1.png" alt="" />
+                        <img src="<?php echo $pageurl; ?>/public/images/banner-3.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -295,6 +295,203 @@
         
         <div>
             <img src="<?php echo $pageurl; ?>/public/images/galeria-12.jpg" alt="" />
+        </div>
+    </div>
+</div>
+
+<div class="area-white">
+    <div class="container">
+        <div class="title-area">
+            <h2>Artigos</h2>
+
+            <p>Saiba mais sobre a Loopzero e seus serviços acessando nossa base de conhecimento.</p>
+        </div>
+
+        <div class="swiper swiper-artigos">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="area-artigo">
+                        <div class="area-artigo-img">
+                            <img src="<?php echo $pageurl; ?>/public/images/artigo-img.jpg" alt="" />
+                        </div>
+
+                        <div class="area-artigo-body">
+                            <h4>Como realizar Tryouts de forma eficaz</h4>
+
+                            <p>Entenda todos os processos essenciais para execução deste tipo de serviço.</p>
+
+                            <a href="#" class="button-elm">Ler Artigo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="area-artigo">
+                        <div class="area-artigo-img">
+                            <img src="<?php echo $pageurl; ?>/public/images/artigo-img.jpg" alt="" />
+                        </div>
+
+                        <div class="area-artigo-body">
+                            <h4>Como realizar Tryouts de forma eficaz</h4>
+
+                            <p>Entenda todos os processos essenciais para execução deste tipo de serviço.</p>
+
+                            <a href="#" class="button-elm">Ler Artigo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="area-artigo">
+                        <div class="area-artigo-img">
+                            <img src="<?php echo $pageurl; ?>/public/images/artigo-img.jpg" alt="" />
+                        </div>
+
+                        <div class="area-artigo-body">
+                            <h4>Como realizar Tryouts de forma eficaz</h4>
+
+                            <p>Entenda todos os processos essenciais para execução deste tipo de serviço.</p>
+
+                            <a href="#" class="button-elm">Ler Artigo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="area-artigo">
+                        <div class="area-artigo-img">
+                            <img src="<?php echo $pageurl; ?>/public/images/artigo-img.jpg" alt="" />
+                        </div>
+
+                        <div class="area-artigo-body">
+                            <h4>Como realizar Tryouts de forma eficaz</h4>
+
+                            <p>Entenda todos os processos essenciais para execução deste tipo de serviço.</p>
+
+                            <a href="#" class="button-elm">Ler Artigo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="area-artigo">
+                        <div class="area-artigo-img">
+                            <img src="<?php echo $pageurl; ?>/public/images/artigo-img.jpg" alt="" />
+                        </div>
+
+                        <div class="area-artigo-body">
+                            <h4>Como realizar Tryouts de forma eficaz</h4>
+
+                            <p>Entenda todos os processos essenciais para execução deste tipo de serviço.</p>
+
+                            <a href="#" class="button-elm">Ler Artigo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="area-artigo">
+                        <div class="area-artigo-img">
+                            <img src="<?php echo $pageurl; ?>/public/images/artigo-img.jpg" alt="" />
+                        </div>
+
+                        <div class="area-artigo-body">
+                            <h4>Como realizar Tryouts de forma eficaz</h4>
+
+                            <p>Entenda todos os processos essenciais para execução deste tipo de serviço.</p>
+
+                            <a href="#" class="button-elm">Ler Artigo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-buttons-clientes">
+                <div class="swiper-button-prev">
+                    <svg viewBox="0 0 45 45" fill="none">
+                        <path d="M29 22L17 22" stroke="#1F7982" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M23 28L17 22L23 16" stroke="#1F7982" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="22.5" cy="22.5" r="22" transform="rotate(-90 22.5 22.5)" stroke="#1F7982"/>
+                    </svg>
+                </div>
+
+                <div class="swiper-button-next">
+                    <svg viewBox="0 0 45 45" fill="none">
+                        <path d="M16 23H28" stroke="#1F7982" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M22 17L28 23L22 29" stroke="#1F7982" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="22.5" cy="22.5" r="22" transform="rotate(90 22.5 22.5)" stroke="#1F7982"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="area-parceiro">
+    <img src="<?php echo $pageurl; ?>/public/images/bg-parceiros.png" class="bg-parceiros" alt="" />
+
+    <div class="container">
+        <div class="parceiros-content">
+            <div class="parceiro-left-side">
+                <h2>Projetista: seja um parceiro Loopzero</h2>
+
+                <p>Preencha o formulário ao lado com as suas informações para que possamos entrar em contato. Será um prazer contar com você em nossos projetos.</p>
+            </div>
+
+            <div class="parceiro-right-side">
+                <form action="https://formsubmit.co/andre.jr91@gmail.com" method="POST" class="parceiros-form">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://localhost/loopzero/">
+
+                    <div class="input-block">
+                        <label for="Nome completo">Nome completo</label>
+
+                        <input type="text" name="Nome completo" placeholder="Seu nome completo" required/>
+                    </div>
+
+                    <div class="input-block">
+                        <label for="Profissão ou especialidade">Profissão ou especialidade</label>
+
+                        <input type="text" name="Profissão ou especialidade" placeholder="Digite aqui sua ocupação" required/>
+                    </div>
+
+                    <div class="input-block">
+                        <label for="Empresa">Empresa</label>
+
+                        <input type="text" name="Empresa" placeholder="Digite aqui sua empresa" required/>
+                    </div>
+
+                    <div class="halfs-input">
+                        <div>
+                            <label for="Cidade">Cidade</label>
+
+                            <input type="text" name="Cidade" placeholder="Qual a sua cidade?" required/>
+                        </div>
+
+                        <div>
+                            <label for="Estado">Estado</label>
+
+                            <input type="text" name="Estado" id="estado" placeholder="XX" required/>
+                        </div>
+                    </div>
+
+                    <div class="input-block">
+                        <label for="Telefone para contato">Telefone para contato</label>
+
+                        <input type="text" name="Telefone para contato" id="phone" placeholder="(XX) XXXXX-XXXX" required/>
+                    </div>
+
+                    <div class="input-block">
+                        <label for="Descreva sua experiência de forma breve">Descreva sua experiência de forma breve</label>
+
+                        <textarea name="Descreva sua experiência de forma breve" placeholder="Conte-nos mais sobre você." cols="30" rows="5"></textarea>
+                    </div>
+
+                    <div>
+                        <button class="button-elm">Enviar</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </div>
