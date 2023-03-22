@@ -90,6 +90,10 @@ if(pageurl == 'home'){
         },
         992: {
           slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        1280: {
+          slidesPerView: 3,
           spaceBetween: 60,
         },
       },
