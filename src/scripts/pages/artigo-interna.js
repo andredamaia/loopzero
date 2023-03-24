@@ -1,5 +1,5 @@
 import gsap from 'gsap'
-import Swiper, { Pagination, Scrollbar, Navigation, Autoplay} from 'swiper';
+import Swiper from 'swiper';
 import $ from 'jquery';
 import Inputmask from 'inputmask'
 
@@ -7,12 +7,7 @@ import Scroll from '../utils/scroll'
 
 const pageurl = document.querySelector('body').id
 
-Swiper.use([Pagination]);
-Swiper.use([Scrollbar]);
-Swiper.use([Navigation]);
-Swiper.use([Autoplay]);
-
-if(pageurl == 'home'){
+if(pageurl == 'artigo-interna'){
     const scroll = new Scroll()
 
     // gsap.ticker.add(() => { 
@@ -31,53 +26,6 @@ if(pageurl == 'home'){
           $('header').removeClass('active')
       }
     })
-
-    var menu = ['1', '2', '3']
-
-    const swiperBanner = new Swiper('.swiper-banner', {
-      direction: 'horizontal',
-      loop: true,
-      pagination: '.swiper-pagination',
-      autoplay: {
-        delay: 5000
-      },
-    
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-          renderBullet: function (index, className) {
-            return '<span class="' + className + '">' + (menu[index]) + '</span>';
-          },
-      },
-    });
-
-
-
-
-    const swiperClientes = new Swiper('.swiper-clientes', {
-      direction: 'horizontal',
-      slidesPerView: 5,
-      spaceBetween: 25,
-      breakpoints: {
-        320: {
-          slidesPerView: 'auto',
-          spaceBetween: 25,
-        },
-        822: {
-          slidesPerView: 'auto',
-          spaceBetween: 25,
-        },
-        992: {
-          slidesPerView: 5,
-          spaceBetween: 25,
-        },
-      },
-    
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
 
     const swiperArtigos = new Swiper('.swiper-artigos', {
       direction: 'horizontal',
@@ -130,4 +78,24 @@ if(pageurl == 'home'){
   })
 
   Inputmask({"mask": "(99) 99999-9999"}).mask('#phone')
+
+  const swiperNoticeGallery = new Swiper('.swiper-notice-gallery', {
+    direction: 'horizontal',
+    slidesPerView: 3,
+    spaceBetween: 30,
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 30,
+      },
+      822: {
+        slidesPerView: 3,
+        spaceBetween: 40,
+      },
+      1280: {
+        slidesPerView: 3,
+        spaceBetween: 40,
+      },
+    },
+})
 }

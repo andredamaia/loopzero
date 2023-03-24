@@ -185,6 +185,10 @@
         
                 .toggle-body {
                     display: grid;
+
+                    .menos {
+                        visibility: hidden;
+                    }
                 }
         
         
@@ -193,11 +197,9 @@
                     padding-bottom: 1.5rem;
         
                     .mais {
-                        visibility: hidden;
+                        display: none;
                     }
-                }
 
-                .toggle-body {
                     .menos {
                         display: block ;
                     }
@@ -213,6 +215,10 @@
                 gap: 8rem;
                 justify-content: flex-start;
                 align-items: center;
+
+                .menos {
+                    display: none;
+                }
             }
             
             
@@ -224,13 +230,15 @@
                 gap: 8rem;
                 display: none; 
 
+                
+                .menos {
+                    visibility: hidden;
+                }
+                
+
                 p {
                     color: var(--color-manatee);
                     padding-right: 7rem;
-                }
-
-                .menos {
-                    display: none;
                 }
             }
         }
@@ -491,6 +499,8 @@
     }
 }
 
+
+
 @media (min-width: 1401px) and (max-width: 1500px) {
     header .header-container {
         gap: 3rem;
@@ -551,6 +561,20 @@
     .align-items-center {
         align-items: center;
         justify-content: center;
+    }
+
+    .artigo-interna-banner .container .area-artigo-title .artigo-title strong {
+        font-size: 5rem;
+        line-height: 6rem;
+    }
+
+    .artigo .notice-image {
+        height: 40rem;
+        margin-bottom: 3rem;
+    }
+
+    .artigo .notice-gallery div {
+        height: 25rem;
     }
 }
 
@@ -654,6 +678,53 @@
     h4 {
         font-size: 2.6rem;
         line-height: 3.2rem;
+    }
+
+    .artigo-interna-banner .container .artigo-image {
+        height: 40%;
+    }
+
+    .artigo-interna-banner .container .area-artigo-title .artigo-title strong {
+        font-size: 4rem;
+        line-height: 5.3rem;;
+    }
+
+    .artigo-interna-banner .container .area-artigo-title .artigo-title .tempo-leitura {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .artigo-interna-banner .container .area-artigo-title .artigo-title {
+        gap: 1rem;
+    }
+
+    .artigo .notice-title {
+        width: 60%;
+    }
+
+    .artigo {
+        padding: 7rem;
+    }
+
+    .artigo .notice-image {
+        height: 40rem;
+        margin-bottom: 3rem;
+    }
+
+    .artigo .notice-gallery div {
+        height: 20rem;
+    }
+
+    .artigo .notice-gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .swiper-artigos .swiper-slide .area-artigo .area-artigo-body {
+        padding: 0 1.5rem;
+    }
+
+    .artigo-interna-banner {
+        height: 85vh;
     }
 }
 
@@ -906,5 +977,58 @@
     .parceiros-form label {
         font-size: 1.5rem;
         line-height: 1.8rem;
+    }
+
+    .artigo-interna-banner .container .area-artigo-title .artigo-title {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .artigo-interna-banner .container .area-artigo-title .artigo-title strong {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .artigo-interna-banner .container .area-artigo-title .artigo-title .tempo-leitura {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    .artigo-interna-banner .container .artigo-image {
+        height: 30%;
+    }
+
+    .artigo-interna-banner {
+        height: 65vh;
+    }
+
+    .artigo-interna-banner .watermark {
+        max-width: 25rem;
+    }
+
+    .artigo {
+        padding: 3rem 1rem;
+    }
+
+    .artigo .notice-title {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .artigo .notice-description p {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        margin-bottom: 2rem;
+    }
+
+    .artigo .notice-image {
+        height: 20rem;
+        margin-bottom: 3rem;
+    }
+
+    .artigo .back-to-top {
+        font-size: 1.6rem;
     }
 }

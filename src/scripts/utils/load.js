@@ -20,7 +20,19 @@ export default class Load {
 
     load() {
         this.preload.fetch([
-            '../public/images/favicon.png'
+            '../images/favicon.png',
+            // '../images/banner-2.png',
+            // '../images/banner-3.png',
+            // '../images/bg-banner-1.png',
+            // '../images/bg-parceiros.png',
+            // '../images/bg-treinamento.png',
+            // '../images/galeria-7.png',
+            // '../images/galeria-8.png',
+            // '../images/galeria-9.png',
+            // // '../images/gtf.png',
+            // // '../images/imm.png',
+            // // '../images/master.png',
+            // '../images/novo-servico-9.png',
         ]).then(() => {
             // Animation executed when loading finish
             const enterAnimantion = gsap.timeline({ delay: 1 })
