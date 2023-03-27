@@ -90,7 +90,7 @@
                 </div>
 
                 <div>
-                    <img src="<?php echo $pageurl; ?>/public/images/servico-2.png" alt="" />
+                    <img src="<?php echo $pageurl; ?>/public/images/new-servicos-injecao.png" alt="" />
                 </div>
             </div>
 
@@ -114,7 +114,7 @@
                 </div>
 
                 <div>
-                    <img src="<?php echo $pageurl; ?>/public/images/servico-4.png" alt="" />
+                    <img src="<?php echo $pageurl; ?>/public/images/new-servico-tryout.png" alt="" />
                 </div>
             </div>
             
@@ -126,7 +126,7 @@
                 </div>
 
                 <div>
-                    <img src="<?php echo $pageurl; ?>/public/images/servico-5.png" alt="" />
+                    <img src="<?php echo $pageurl; ?>/public/images/new-servico-3d.png" alt="" />
                 </div>
             </div>
 
@@ -138,7 +138,7 @@
                 </div>
 
                 <div>
-                    <img src="<?php echo $pageurl; ?>/public/images/servico-6.png" alt="" />
+                    <img src="<?php echo $pageurl; ?>/public/images/new-servico-termografia.png" alt="" />
                 </div>
             </div>
         </div>
