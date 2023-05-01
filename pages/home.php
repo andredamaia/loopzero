@@ -10,7 +10,7 @@
 
                         <p>A Loopzero apresenta um modelo de negócios único no Brasil, fornecendo os serviços de projeto e simulação em fundição de alumínio</p>
 
-                        <a href="#" class="button-elm">Saiba mais</a>
+                        <!-- <a href="#" class="button-elm">Saiba mais</a> -->
                     </div>
 
                     <div class="right-side">
@@ -28,7 +28,7 @@
 
                         <p>A Loopzero possui máquina injetora de alumínio exclusiva para validação e simulação de projetos de moldes, sejam eles internos ou de terceiros</p>
 
-                        <a href="#" class="button-elm">Saiba mais</a>
+                        <!-- <a href="#" class="button-elm">Saiba mais</a> -->
                     </div>
 
                     <div class="right-side">
@@ -46,7 +46,7 @@
 
                         <p>A Loopzero oferece simulações de injeção ao mercado através do uso do Magmasoft, ferramenta da qual temos total conhecimento técnico</p>
 
-                        <a href="#" class="button-elm">Saiba mais</a>
+                        <!-- <a href="#" class="button-elm">Saiba mais</a> -->
                     </div>
 
                     <div class="right-side">
